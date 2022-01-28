@@ -1,6 +1,7 @@
 # Shopping-Web-Page-Front-End
 
 ## Proje Hakkında
+* Proje responsive bir sahiptir.
 * Veriler products-list.json dosyasından çekilmektedir.
 * Open with live server ile proje çalıştırılır ise veriler dinamik olarak gelir.
 * Search kutusu ile filtreleme işlemi yapılabilmektedir.
