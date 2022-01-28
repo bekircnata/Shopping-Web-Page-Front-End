@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: .2s opacity;
+}
+.hide {
+    display: none
+}
+.btn {
+    font-size: 1.6rem;
+}
+
+/* --- NAVBAR --- */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+.nav-search {
+    padding: 1rem;
+    margin-left: 5rem;
+}
+.nav-search input{
+    font-size: 1.6rem;
+    border-radius: 5rem;
+    padding: 1rem;
+}
+.navbar-brand {
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+}
+.popupBtn{
+    font-size: 2.6rem;
+    margin-right: 5rem;
+    padding: 1rem;
+    color: white;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 0.5s linear;
+}
+.popupBtn:hover {
+    background-color: red;
+}
+.popupBtn .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 4px 8px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+/* --- /NAVBAR --- */
+
+/* --- SİDEBAR ---*/
+.sidebar {
+    margin-top: 5rem;
+}
+.category-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+.category-list {
+    font-size: 1.6rem;
+    font-family: 'Noto Serif', serif;
+    list-style: none;
+    text-align: center;
+}
+.categoryBtn {
+    font-size: 1.6rem;
+    width: 20rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+/* --- /SİDEBAR ---*/
+
+/* --- MAİN --- */
+.main {
+    margin-top: 10rem;
+    
+}
+.productsMain {
+    margin-left: 10rem;
+}
+.card {
+    font-size: 1.6rem;
+    font-family: 'Noto Serif', serif;
+    border: none;
+    margin-bottom: 5rem;
+    transition: 0.5s linear;
+    padding: 1rem;
+}
+.card:hover {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.card-img img{
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 2rem;
+    transition: 0.5s linear;
+}
+.card-img img:hover {
+    opacity: 0.8;
+}
+.card-title {
+    height: 5rem;
+}
+.card-body .price {
+    float: right;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.addToCart {
+    text-align: center;
+    margin-top: 5rem;
+}
+.addToCart .btn{
+    width: 100%;
+}
+/* --- /MAİN ---*/
+
+/* --- POPUP ---*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 10rem;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+.close {
+    color: white;
+    float: right;
+    padding: 1rem;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    padding: 1rem;
+    background-color: #5cb85c;
+    color: white;
+    text-transform: uppercase;
+}
+.modal-body {
+    font-size: 1.6rem;
+}
+.products-image img{
+    width: 10rem;
+    height: 10rem;
+}
+.products-delete-btn .btn{
+    font-size: 1.6rem;
+}
+.payBtn {
+    margin-right: 10rem ;
+}
+#sumPrice {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-right: 10rem ;
+}
+/* --- /POPUP ---*/
+
+/* --- FOOTER --- */
+footer {
+	width: 100%;
+    bottom: 0;
+    margin-top: 45rem;
+	padding: 3rem;
+	background-color: #2a2a2a;
+}
+.footer-copyrights p{
+	text-align: center;
+	font-size: 1.6rem;
+	margin: 0;
+	text-transform: uppercase;
+
+}
