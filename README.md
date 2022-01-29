@@ -1,14 +1,14 @@
 # Shopping-Web-Page-Front-End
 
 ## Proje Hakkında
-* Proje responsive bir sahiptir.
+* Proje responsive bir tasarıma sahiptir.
 * Veriler products-list.json dosyasından çekilmektedir.
 * Open with live server ile proje çalıştırılır ise veriler dinamik olarak gelir.
-* Search kutusu ile filtreleme işlemi yapılabilmektedir.
+* Search box ile filtreleme işlemi yapılabilmektedir.
 * Kategori seçimi ile filtreleme işlemi yapılabilmektedir.
-* Ürünlere ait kartlarda add to cart butonu ile o ürün sepete eklenebilir.
+* Ürünlere ait kartlarda bulunan add to cart butonu ile o ürün sepete eklenebilir.
 * Sepet iconunun üzerinde sepetteki ürün sayısı gösterilmektedir.
-* Sepet iconuna tıklandığında sepet popup olarak açılmaktadır ve içersinde ürün var ise listelenmektedir.
+* Sepet iconuna tıklandığında sepet popup olarak açılmaktadır ve içerisinde ürün var ise listelenmektedir.
 * Sepet içerisindeki delete butonu ile ürünler kaldırılabilir.
 * Sepet içerisindeki ürünler isteğe göre sürükle bırak yöntemi ile sıralanabilir
 
